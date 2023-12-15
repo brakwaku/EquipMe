@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateEmployeeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/createEmployeeGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:columnCount="1"
+            android:useDefaultMargins="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/viewEmployeeNameTextView"
+                style="@style/App_TextViewStyle"
+                android:text="@string/employee_name_text_view" />
+
+            <EditText
+                android:id="@+id/employeeNameEditText"
+                style="@style/App_EditTextStyle" />
+
+            <TextView
+                android:id="@+id/viewEmployeeEmailTextView"
+                style="@style/App_TextViewStyle"
+                android:text="@string/employee_brand_text_view" />
+
+            <EditText
+                android:id="@+id/employeeEmailEditText"
+                style="@style/App_EditTextStyle" />
+
+            <TextView
+                android:id="@+id/employeeIdTextView"
+                style="@style/App_TextViewStyle"
+                android:text="@string/employee_serial_text_view" />
+
+            <EditText
+                android:id="@+id/employeeIdEditText"
+                style="@style/App_EditTextStyle" />
+
+            <TextView
+                android:id="@+id/viewEmployeeJobTitleTextView"
+                style="@style/App_TextViewStyle"
+                android:text="@string/employee_assigned_to_text_view" />
+
+            <Spinner
+                android:id="@+id/employeeJobTitleSpinner"
+                style="@style/App_SpinnerStyle"
+                android:entries="@array/employee_job_title_options"
+                android:prompt="@string/employee_job_title_prompt"
+                android:text="@string/blank" />
+
+            <TextView
+                android:id="@+id/employeeNotesTextView"
+                style="@style/App_TextViewStyle"
+                android:text="@string/employee_notes_text_view" />
+
+            <EditText
+                android:id="@+id/employeeNotesEditText"
+                style="@style/App_EditTextStyle"
+                android:layout_rowSpan="3"
+                android:layout_columnSpan="1"
+                android:minLines="10" />
+
+            <Button
+                android:id="@+id/employeeCreateButton"
+                style="@style/App_ButtonStyle"
+                android:onClick="addEmployeeToList"
+                android:text="@string/create_employee_button" />
+
+        </GridLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/createEmployeeGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:columnCount="2"
+        android:useDefaultMargins="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/App_EditTextStyle"
+            android:queryHint="Search Here"
+            android:iconifiedByDefault="false"
+            android:layout_columnSpan="2"/>
+
+        <ListView
+            android:id="@+id/mainDisplay"
+            style="@style/App_ListViewStyle"
+            android:divider="#ad5"
+            android:dividerHeight="2dp"
+            android:layout_columnSpan="2" />
+
+        <Button
+            android:id="@+id/viewEquipmentButton"
+            android:layout_width="160dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/view_equipment_button" />
+
+
+        <Button
+            android:id="@+id/viewEmployeeButton"
+            android:layout_width="160dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/view_employee_button" />
+
+
+        <Button
+            android:id="@+id/createEquipmentButton"
+            android:layout_width="160dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/create_equipment_button" />
+
+        <Button
+            android:id="@+id/createEmployeeButton"
+            android:layout_width="160dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="24dp"
+            android:onClick="createEmployee"
+            android:text="@string/create_employee_button" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">EquipMe</string>
+    <string name="create_equipment_button">Create Equipment</string>
+    <string name="create_employee_button">Create Employee</string>
+    <string name="view_equipment_button">View Equipment</string>
+    <string name="view_employee_button">View Employee</string>
+
+    <string name="equipment_type_text_view">Equipment Type:</string>
+    <string name="equipment_brand_text_view">Equipment Brand:</string>
+    <string name="equipment_serial_text_view">Serial Number:</string>
+    <string name="equipment_assigned_to_text_view">Assigned to:</string>
+    <string name="equipment_notes_text_view">Other Notes:</string>
+    <string name="equipment_date_text_view">Date Assigned:</string>
+
+    <string name="employee_name_text_view">Employee Name:</string>
+    <string name="employee_brand_text_view">Employee Email:</string>
+    <string name="employee_serial_text_view">Employee ID Number:</string>
+    <string name="employee_assigned_to_text_view">Job Title:</string>
+    <string name="employee_add_equipment_text_view">Add/Remove Equipment:</string>
+    <string name="employee_notes_text_view">Other Notes:</string>
+
+    <string name="view_employee_assigned_equipment_text_view">Assigned Equipment:</string>
+    <string name="view_employee_name_text_view">Name</string>
+    <string name="view_employee_email_text_view">Email</string>
+    <string name="view_employee_number_text_view">ID Number</string>
+    <string name="view_employee_job_title_text_view">Job Title</string>
+
+    <string name="blank"></string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="placeholder">Info here</string>
+    <string name="cancel">Back</string>
+    <string name="saveNotes">Save Notes</string>
+
+    <string name="employee_job_title_prompt">Choose a job title</string>
+
+    <string name="equipment_brand_prompt">Choose equipment brand</string>
+
+    <string name="equipment_type_prompt">Choose equipment type</string>
+
+    <string name="assigned_to_prompt">Choose employee</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="employee_job_title_options">
+        <item>Choose one:</item>
+        <item>Project Manager</item>
+        <item>Assistant Project Manager</item>
+        <item>Superintendent</item>
+        <item>Assistant Superintendent</item>
+        <item>Laborer</item>
+        <item>Project Engineer</item>
+        <item>Office Engineer</item>
+        <item>Project Accountant</item>
+        <item>Corporate Accounting</item>
+        <item>Human Resources</item>
+        <item>Compliance Officer</item>
+        <item>Factoring Agent</item>
+    </string-array>
+
+    <string-array name="equipment_type_options">
+        <item>Select type:</item>
+        <item>Type 1</item>
+        <item>Type 2</item>
+        <item>Type 3</item>
+        <item>Type 4</item>
+    </string-array>
+
+    <string-array name="equipment_brand_options">
+        <item>Select brand:</item>
+        <item>Brand 1</item>
+        <item>Brand 2</item>
+        <item>Brand 3</item>
+        <item>Brand 4</item>
+    </string-array>
+
+    <string-array name="assigned_to_options">
+        <item>Select employee:</item>
+        <item>Employee 1</item>
+        <item>Employee 2</item>
+        <item>Employee 3</item>
+        <item>Employee 4</item>
+    </string-array>
+
+    <string-array name="main_list_display">
+
+    </string-array>
+</resources>
